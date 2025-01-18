@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(#052c39, #021a23);
+    background-attachment: fixed;
+    background-size: cover;
+    animation: gradient 15s ease infinite;
+}
+
+.intro {
+    text-align: center;
+    color: white;
+    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+    animation: intro 1s ease infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.bio {
+    text-align: center;
+    color: white;
+    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+    animation: intro 1s ease infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.buttons {
+    text-align: center;
+    color: white;
+    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: linear-gradient(white, #c1c3c3);
+    cursor: pointer;
+    color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: block; margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    transition-duration: 0.3s;
+}
+
+.buttons:hover {
+    box-shadow: 10px 10px 10px #021a23;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
