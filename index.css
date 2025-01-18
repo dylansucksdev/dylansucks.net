@@ -50,6 +50,10 @@ body {
     box-shadow: 10px 10px 10px #021a23;
 }
 
+.buttons:active {
+    transform: translateY(3px);
+}
+
 @keyframes intro {
     0% {
         opacity: 0;
